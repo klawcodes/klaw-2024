@@ -3,16 +3,18 @@ import Team from '../components/team/page'
 import About from '../components/about/page'
 import Skills from '../components/skills/page'
 import Works from '../components/works/page'
+import Contact from '../components/contact/page'
 
 export default function Home() {
   return (
     <>
       <div className="parallax h-screen"></div>
-      <div className="flex flex-col gap-[5vh]">
+      <div className="flex flex-col gap-[5vh] mb-[5vh]">
         <Team />
         <About />
         <Skills />
         <Works />
+        <Contact />
       </div>
     </>
   );
