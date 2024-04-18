@@ -77,7 +77,7 @@ const Team = () => {
                 RIOT REVENGER
               </h2>
               <p className="text-[12px]  cream berkeley w-[150px]">
-                3D DESIGNER, MOGRAPH DESIGNER & MORE
+                3D ARTIST, MOGRAPH DESIGNER & MORE
               </p>
             </div>
             <div
