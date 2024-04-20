@@ -58,7 +58,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px] 
                     ${
                       selectedCategory === "ALL"
-                        ? "bg-[#2d3250]"
+                        ? ""
                         : ""
                     } 
                     ${
@@ -80,7 +80,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "KLAW"
-                        ? "bg-[#333333]"
+                        ? ""
                         : ""
                     } 
                     ${selectedCategory === "KLAW" && "text-[#2d3250]"} 
@@ -103,7 +103,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "RIOT REVENGER"
-                        ? "bg-[#fffab7] text-[#333333]"
+                        ? ""
                         : ""
                     } 
                     ${selectedCategory === "RIOT REVENGER" && "text-[#2d3250]"} 
@@ -126,7 +126,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "NEON PAPER KID"
-                        ? "bg-[#fffab7] text-[#333333]"
+                        ? ""
                         : ""
                     } 
                     ${selectedCategory === "NEON PAPER KID" && "text-[#2d3250]"} 
@@ -149,7 +149,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "MIDNIGHT KOALA"
-                        ? "bg-[#fffab7] text-[#333333]"
+                        ? ""
                         : ""
                     } 
                     ${selectedCategory === "MIDNIGHT KOALA" && "text-[#2d3250]"} 
@@ -268,7 +268,7 @@ const Works = () => {
                   <DiCss3 title="CSS" className="icon mb-1 blue" />
                 </div>
                 <p className="berkeley mb-3 text-[13px] w-[230px] h-[120px]">
-                  Your loyal companion during the fasting month. Discover the
+                  Your loyal companion during Ramadhan. Discover the
                   imsak and prayer schedules.
                 </p>
                 <a

@@ -65,6 +65,21 @@ body {
   transition: height .25s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.selectedLink {
+  height: 0;
+}
+
+.selectedLink:hover {
+  display: inline-block;
+  color: #fffab7;
+  height: 40px;
+  width: auto;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #fb615c;
+  transition: color .25s ease-in-out, box-shadow .3s ease-in-out;
+  transition: height .25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 .forsvg {
   filter: invert(89%) sepia(47%) saturate(514%) hue-rotate(312deg) brightness(111%) contrast(105%);
 }

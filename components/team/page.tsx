@@ -11,23 +11,23 @@ const Team = () => {
       <div className="flex justify-center items-center h-auto">
         <div className="bg-[#2d3250] w-[1100px] h-auto flex flex-col rounded-[30px] px-5">
           <div className="flex items-center gap-x-5">
-          <h1 className="soulmaze cream text-[4rem]">
-            MEET THE <span className="red">TEAM...</span>
-          </h1>
-          <div onContextMenu={(e) => e.preventDefault()}>
-            <picture onDragStart={(e) => e.preventDefault()}>
-              <source
-                srcSet="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4aa_1f3fb/512.webp"
-                type="image/webp"
-              />
-              <img
-                src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4aa_1f3fb/512.gif"
-                alt="💪"
-                width="60"
-                height="60"
-              />
-            </picture>
-          </div>
+            <h1 className="soulmaze cream text-[4rem]">
+              MEET THE <span className="red">TEAM...</span>
+            </h1>
+            <div onContextMenu={(e) => e.preventDefault()}>
+              <picture onDragStart={(e) => e.preventDefault()}>
+                <source
+                  srcSet="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4aa_1f3fb/512.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4aa_1f3fb/512.gif"
+                  alt="💪"
+                  width="60"
+                  height="60"
+                />
+              </picture>
+            </div>
           </div>
           <div className="flex justify-center mt-10">
             <div
@@ -51,8 +51,8 @@ const Team = () => {
                     className="rounded-3xl"
                   />
                   <div className="absolute inset-0 bg-gray-900 bg-opacity-75 opacity-0 flex rounded-3xl items-center justify-center group-hover:opacity-100 transition-opacity duration-300">
-                    <h2 className="vivaldi bold text-white text-5xl text-bold">
-                      Klaw.
+                    <h2 className="soulmaze bold cream text-5xl text-bold">
+                      who?
                     </h2>
                   </div>
                 </div>
@@ -83,13 +83,9 @@ const Team = () => {
                     className="rounded-3xl"
                   />
                   <div className="absolute inset-0 bg-gray-900 bg-opacity-75 opacity-0 flex rounded-3xl items-center justify-center group-hover:opacity-100 transition-opacity duration-300">
-                    <Image
-                      src="/img/logoriot.png"
-                      width={150}
-                      height={150}
-                      alt="klaw"
-                      className="rounded-3xl"
-                    />
+                    <h2 className="soulmaze bold cream text-5xl text-bold">
+                      who?
+                    </h2>
                   </div>
                 </div>
               </a>
@@ -121,13 +117,9 @@ const Team = () => {
                     className="rounded-3xl"
                   />
                   <div className="absolute inset-0 bg-gray-900 bg-opacity-75 opacity-0 flex rounded-3xl items-center justify-center group-hover:opacity-100 transition-opacity duration-300">
-                    <Image
-                      src="/img/logonpk.png"
-                      width={150}
-                      height={150}
-                      alt="klaw"
-                      className="rounded-3xl"
-                    />
+                    <h2 className="soulmaze bold cream text-5xl text-bold">
+                      who?
+                    </h2>
                   </div>
                 </div>
               </a>
@@ -159,13 +151,9 @@ const Team = () => {
                     className="rounded-3xl"
                   />
                   <div className="absolute inset-0 bg-gray-900 bg-opacity-75 opacity-0 flex rounded-3xl items-center justify-center group-hover:opacity-100 transition-opacity duration-300">
-                    <Image
-                      src="/img/logomk.png"
-                      width={150}
-                      height={150}
-                      alt="klaw"
-                      className="rounded-3xl"
-                    />
+                    <h2 className="soulmaze bold cream text-5xl text-bold">
+                      who?
+                    </h2>
                   </div>
                 </div>
               </a>

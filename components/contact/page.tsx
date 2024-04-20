@@ -15,7 +15,7 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="flex justify-center items-center h-auto">
+      <div className="flex flex-col justify-center items-center h-auto">
         <div className="bg-[#2d3250] w-[1100px] h-auto flex flex-col rounded-[30px] px-5">
           <div className="flex justify-around">
             <h1 className="soulmaze cream text-[4rem]">HIT ME UP!</h1>
@@ -32,10 +32,15 @@ const Contact = () => {
                   style={Icons}
                   width={0}
                   height={0}
+                  draggable={false}
                   className="mr-[0.5rem] forsvg"
                 />
-                <h1 className="font-bold hover:underline">
-                  <a href="mailto:hi@klaw.my.id" target="_blank">
+                <h1 className="font-bold">
+                  <a
+                    href="mailto:hi@klaw.my.id"
+                    target="_blank"
+                    className="selectedLink"
+                  >
                     hi@klaw.my.id
                   </a>
                 </h1>
@@ -52,10 +57,15 @@ const Contact = () => {
                   style={Icons}
                   width={0}
                   height={0}
+                  draggable={false}
                   className="mr-[0.5rem] forsvg"
                 />
-                <h1 className="font-bold hover:underline">
-                  <a href="https://github.com/klawcodes" target="_blank">
+                <h1 className="font-bold">
+                  <a
+                    href="https://github.com/klawcodes"
+                    target="_blank"
+                    className="selectedLink"
+                  >
                     klawcodes
                   </a>
                 </h1>
@@ -72,10 +82,15 @@ const Contact = () => {
                   style={Icons}
                   width={0}
                   height={0}
+                  draggable={false}
                   className="mr-[0.5rem] forsvg"
                 />
-                <h1 className="font-bold hover:underline">
-                  <a href="https://twitter.com/0xKlaw" target="_blank">
+                <h1 className="font-bold ">
+                  <a
+                    href="https://twitter.com/0xKlaw"
+                    target="_blank"
+                    className="selectedLink"
+                  >
                     @0xKlaw
                   </a>
                 </h1>
@@ -83,6 +98,10 @@ const Contact = () => {
             </div>
           </div>
         </div>
+
+          <div className="bg-[#2d3250] w-[300px] flex justify-center items-center h-auto rounded-b-[30px] px-5">
+            <h1 className="berkeley cream text-small">© Copyright 2024 Klaw</h1>
+          </div>
       </div>
     </>
   );

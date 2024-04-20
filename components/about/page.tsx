@@ -1,9 +1,12 @@
-'use client'
+"use client";
 
 import React from "react";
 import Image from "next/image";
+import { useState } from "react";
 
 const About = () => {
+  const [showBubble, setShowBubble] = useState(false);
+
   return (
     <>
       <div className="flex justify-center items-center h-auto">
@@ -12,23 +15,38 @@ const About = () => {
             <h1 className="soulmaze red text-[5rem] w-[400px] leading-[5rem] mt-2">
               GET TO KNOW ME!
             </h1>
-            <div onContextMenu={(e) => e.preventDefault()}>
-            <picture onDragStart={(e) => e.preventDefault()}>
-              <source
-                srcSet="https://fonts.gstatic.com/s/e/notoemoji/latest/1f419/512.webp"
-                type="image/webp"
-              />
-              <img
-                src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f419/512.gif"
-                alt="💪"
-                width="128"
-                height="128"
-              />
-            </picture>
+            <div
+              className="relative"
+              onMouseEnter={() => setShowBubble(true)}
+              onMouseLeave={() => setShowBubble(false)}
+              onContextMenu={(e) => e.preventDefault()}
+            >
+              <picture onDragStart={(e) => e.preventDefault()}>
+                <source
+                  srcSet="https://fonts.gstatic.com/s/e/notoemoji/latest/1f419/512.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f419/512.gif"
+                  alt="💪"
+                  width="128"
+                  height="128"
+                />
+              </picture>
+              {showBubble && (
+                <>
+                <div className="absolute top-0 right-[.5rem] bg-[#fffab7] p-2 rounded-md shadow-md">
+                  <span role="img" aria-label="Chat Bubble" className="text-[15px] berkeley">
+                    hi, i&apos;m clark. klaw&apos;s favorite <br />octopus.
+                  </span>
+                </div>
+                </>
+              )}
             </div>
           </div>
           <p className="berkeley blue w-[500px] mt-5 mb-5">
-            Hey there! I`m <span className="red font-bold select">Muhammad Dimas</span>
+            Hey there! I`m{" "}
+            <span className="red font-bold select">Muhammad Dimas</span>
             , a Junior Programmer and Digital Artist who`s all about design,
             music, and coding cool stuff. I got into programming back in 2020
             when I decided to build my own public Minecraft Server, and since
