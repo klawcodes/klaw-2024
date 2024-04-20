@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
@@ -8,7 +10,25 @@ const Team = () => {
     <>
       <div className="flex justify-center items-center h-auto">
         <div className="bg-[#2d3250] w-[1100px] h-auto flex flex-col rounded-[30px] px-5">
-          <h1 className="soulmaze cream text-[4rem]">MEET THE <span className="red">TEAM...</span></h1>
+          <div className="flex items-center gap-x-5">
+          <h1 className="soulmaze cream text-[4rem]">
+            MEET THE <span className="red">TEAM...</span>
+          </h1>
+          <div onContextMenu={(e) => e.preventDefault()}>
+            <picture onDragStart={(e) => e.preventDefault()}>
+              <source
+                srcSet="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4aa_1f3fb/512.webp"
+                type="image/webp"
+              />
+              <img
+                src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4aa_1f3fb/512.gif"
+                alt="💪"
+                width="60"
+                height="60"
+              />
+            </picture>
+          </div>
+          </div>
           <div className="flex justify-center mt-10">
             <div
               className="relative group flex flex-col justify-start items-start mr-[20px]"
@@ -160,7 +180,9 @@ const Team = () => {
           <h1 className="soulmaze cream text-[2rem] mt-[4.5rem]">
             NAH, JUST KIDDING. ALL OF THEM IS ME!
           </h1>
-          <p className="berkeley red mt-2 mb-2">Here let me show you the truth!</p>
+          <p className="berkeley red mt-2 mb-2">
+            Here let me show you the truth!
+          </p>
           <button className="bg-[#2d3250] border border-[#fffab7] hover:border-[#fb615c] rounded-full px-4 py-2 text-white w-[200px] berkeley cream mb-5">
             Show me more
           </button>

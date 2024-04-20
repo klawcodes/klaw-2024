@@ -50,3 +50,16 @@ body {
 .gray {
   color: #d6d4d0;
 }
+
+.select {
+  height: 0;
+}
+
+.select:hover {
+  display: inline-block;
+  height: 22px;
+  width: auto;
+  background-color: #2d3250;
+  transition: color .25s ease-in-out, box-shadow .3s ease-in-out;
+  transition: height .25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}

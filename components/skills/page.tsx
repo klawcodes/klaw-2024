@@ -203,7 +203,7 @@ const Skills = () => {
             </h1>
             <p className="berkeley blue text-end mt-5">
               Been playing around with{" "}
-              <span className="red text-bold">Next.js</span> for web projects
+              <span className="red text-bold select">Next.js</span> for web projects
               recently.
             </p>
           </div>
