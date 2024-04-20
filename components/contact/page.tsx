@@ -32,7 +32,7 @@ const Contact = () => {
                   style={Icons}
                   width={0}
                   height={0}
-                  className="mr-[0.5rem]"
+                  className="mr-[0.5rem] forsvg"
                 />
                 <h1 className="font-bold hover:underline">
                   <a href="mailto:hi@klaw.my.id" target="_blank">
@@ -52,7 +52,7 @@ const Contact = () => {
                   style={Icons}
                   width={0}
                   height={0}
-                  className="mr-[0.5rem]"
+                  className="mr-[0.5rem] forsvg"
                 />
                 <h1 className="font-bold hover:underline">
                   <a href="https://github.com/klawcodes" target="_blank">
@@ -72,7 +72,7 @@ const Contact = () => {
                   style={Icons}
                   width={0}
                   height={0}
-                  className="mr-[0.5rem]"
+                  className="mr-[0.5rem] forsvg"
                 />
                 <h1 className="font-bold hover:underline">
                   <a href="https://twitter.com/0xKlaw" target="_blank">

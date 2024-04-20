@@ -63,3 +63,7 @@ body {
   transition: color .25s ease-in-out, box-shadow .3s ease-in-out;
   transition: height .25s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+.forsvg {
+  filter: invert(89%) sepia(47%) saturate(514%) hue-rotate(312deg) brightness(111%) contrast(105%);
+}

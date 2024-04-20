@@ -58,7 +58,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px] 
                     ${
                       selectedCategory === "ALL"
-                        ? "bg-[#fffab7] text-[#fb615c]"
+                        ? "bg-[#fffab7] text-[#333333]"
                         : ""
                     } 
                     ${
@@ -80,10 +80,10 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "KLAW"
-                        ? "bg-[#fffab7] text-[#fb615c]"
+                        ? "bg-[#fffab7] text-[#333333]"
                         : ""
                     } 
-                    ${selectedCategory === "KLAW" && "text-gray-300"} 
+                    ${selectedCategory === "KLAW" && "text-[#2d3250]"} 
                     ${
                       windowWidth <= 640
                         ? "text-[10px] px-[3.5rem] py-[0.5rem]"
@@ -103,10 +103,10 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "RIOT REVENGER"
-                        ? "bg-[#fffab7] text-[#fb615c]"
+                        ? "bg-[#fffab7] text-[#333333]"
                         : ""
                     } 
-                    ${selectedCategory === "RIOT REVENGER" && "text-gray-300"} 
+                    ${selectedCategory === "RIOT REVENGER" && "text-[#2d3250]"} 
                     ${
                       windowWidth <= 640
                         ? "text-[10px] px-[3.5rem] py-[0.5rem]"
@@ -126,10 +126,10 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "NEON PAPER KID"
-                        ? "bg-[#fffab7] text-[#fb615c]"
+                        ? "bg-[#fffab7] text-[#333333]"
                         : ""
                     } 
-                    ${selectedCategory === "NEON PAPER KID" && "text-gray-300"} 
+                    ${selectedCategory === "NEON PAPER KID" && "text-[#2d3250]"} 
                     ${
                       windowWidth <= 640
                         ? "text-[10px] px-[3.5rem] py-[0.5rem]"
@@ -149,10 +149,10 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "MIDNIGHT KOALA"
-                        ? "bg-[#fffab7] text-[#fb615c]"
+                        ? "bg-[#fffab7] text-[#333333]"
                         : ""
                     } 
-                    ${selectedCategory === "MIDNIGHT KOALA" && "text-gray-300"} 
+                    ${selectedCategory === "MIDNIGHT KOALA" && "text-[#2d3250]"} 
                     ${
                       windowWidth <= 640
                         ? "text-[10px] px-[3.5rem] py-[0.5rem]"
