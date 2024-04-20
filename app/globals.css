@@ -57,6 +57,7 @@ body {
 
 .select:hover {
   display: inline-block;
+  color: #fffab7;
   height: 22px;
   width: auto;
   background-color: #2d3250;

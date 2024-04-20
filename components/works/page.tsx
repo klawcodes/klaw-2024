@@ -58,7 +58,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px] 
                     ${
                       selectedCategory === "ALL"
-                        ? "bg-[#fffab7] text-[#333333]"
+                        ? "bg-[#2d3250]"
                         : ""
                     } 
                     ${
@@ -80,7 +80,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "KLAW"
-                        ? "bg-[#fffab7] text-[#333333]"
+                        ? "bg-[#333333]"
                         : ""
                     } 
                     ${selectedCategory === "KLAW" && "text-[#2d3250]"} 
