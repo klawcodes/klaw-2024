@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <div className="parallax h-screen">
-        <div className="cream berkeley grid grid-cols-3 mx-[5rem] mb-2 text-[.9rem] items-end justify-center h-screen" style={{ scrollSnapAlign: 'end' }}>
+        <div className="cream berkeley grid grid-cols-3 mx-[5rem] max-[640px]:mx-[1rem] mb-2 text-[.9rem] max-[640px]:text-[.7rem] items-end justify-center h-screen" style={{ scrollSnapAlign: 'end' }}>
           <h1 className="text-left">based in bekasi</h1>
           <h1 className="text-center">scroll down pls{dots}</h1>
           <h1 className="text-right">working worldwide</h1>

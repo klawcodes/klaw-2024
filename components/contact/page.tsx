@@ -16,10 +16,10 @@ const Contact = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center h-auto">
-        <div className="bg-[#2d3250] w-[1100px] h-auto flex flex-col rounded-[30px] px-5">
-          <div className="flex justify-around">
-            <h1 className="soulmaze cream text-[4rem]">HIT ME UP!</h1>
-            <div className="flex gap-x-5">
+        <div className="bg-[#2d3250] w-[1100px] max-[640px]:w-[400px] h-auto flex flex-col rounded-[30px] px-5">
+          <div className="flex justify-around max-[640px]:flex-col">
+            <h1 className="soulmaze cream text-[4rem] max-[640px]:leading-[3rem] max-[640px]:mt-5 max-[640px]:mb-5">HIT ME UP!</h1>
+            <div className="flex gap-x-5 max-[640px]:flex-col max-[640px]:gap-y-5 max-[640px]:mb-5">
               <div
                 className="email flex text-[1.7rem] items-center cream berkeley"
                 data-aos="fade-up"

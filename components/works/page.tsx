@@ -27,9 +27,9 @@ const Works = () => {
   return (
     <>
       <div className="flex justify-center items-center h-auto">
-        <div className="bg-[#ffecd6] w-[1100px] h-auto flex flex-col gap-x-[100px] rounded-[30px] px-5">
+        <div className="bg-[#ffecd6] w-[1100px] max-[640px]:w-[400px] h-auto flex flex-col gap-x-[100px] rounded-[30px] px-5">
           <div className="flex items-end">
-            <h1 className="soulmaze red text-[5rem] w-[400px] leading-[5rem] mt-2">
+            <h1 className="soulmaze red text-[5rem] max-[640px]:text-[3rem] w-[400px] leading-[5rem] max-[640px]:leading-[3rem] mt-2">
               FEATURED WORKS!
             </h1>
             <div onContextMenu={(e) => e.preventDefault()}>

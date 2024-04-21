@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <>
       <div className="flex justify-center items-center h-auto">
-        <div className="bg-[#ffecd6] w-[1100px] h-auto justify-end flex gap-x-[100px] rounded-[30px] px-5 pb-5">
+        <div className="bg-[#ffecd6] w-[1100px] max-[640px]:w-[400px] h-auto justify-end flex max-[640px]:flex-col-reverse gap-x-[100px] rounded-[30px] px-5 pb-5">
           <div className="flex flex-col py-4 px-2">
             <div
               className="mb-7"
@@ -197,11 +197,11 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="w-[400px] pr-2">
-            <h1 className="soulmaze red text-[5rem] leading-[5rem] mt-2 text-end">
+          <div className="w-[400px] pr-2 max-[640px]:w-[300px]">
+            <h1 className="soulmaze red text-[5rem] leading-[5rem] mt-2 text-end max-[640px]:text-start">
               MY SKILL SET!
             </h1>
-            <p className="berkeley blue text-end mt-5">
+            <p className="berkeley blue text-end max-[640px]:text-start mt-5">
               Been playing around with{" "}
               <span className="red text-bold select">Next.js</span> for web projects
               recently.

@@ -10,9 +10,9 @@ const Team = () => {
   return (
     <>
       <div className="flex justify-center items-center h-auto">
-        <div className="bg-[#2d3250] w-[1100px] h-auto flex flex-col rounded-[30px] px-5">
-          <div className="flex items-center gap-x-5">
-            <h1 className="soulmaze cream text-[4rem]">
+        <div className="bg-[#2d3250] w-[1100px] max-[640px]:w-[400px] h-auto flex flex-col rounded-[30px] px-5">
+          <div className="flex items-center gap-x-5 max-[640px]:leading-[3rem] max-[640px]:mt-5">
+            <h1 className="soulmaze cream text-[4rem] max-[640px]:text-[3rem]">
               MEET THE <span className="red">TEAM...</span>
             </h1>
             <div onContextMenu={(e) => e.preventDefault()}>
@@ -30,7 +30,7 @@ const Team = () => {
               </picture>
             </div>
           </div>
-          <div className="flex justify-center mt-10">
+          <div className="flex justify-center mt-10 max-[640px]:flex-col max-[640px]:items-center max-[640px]:gap-y-5">
             <div
               className="relative group flex flex-col justify-start items-start mr-[20px]"
               data-aos="fade-up"
@@ -166,7 +166,7 @@ const Team = () => {
               </p>
             </div>
           </div>
-          <h1 className="soulmaze cream text-[2rem] mt-[4.5rem]">
+          <h1 className="soulmaze cream text-[2rem] mt-[4.5rem] max-[640px]:leading-[2rem]">
             NAH, JUST KIDDING. ALL OF THEM IS ME!
           </h1>
           <p className="berkeley red mt-2 mb-2">

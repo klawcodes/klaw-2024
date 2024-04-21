@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <div className="flex justify-center items-center h-auto" id="about">
-        <div className="bg-[#ffecd6] w-[1100px] h-auto flex gap-x-[100px] rounded-[30px] px-5">
+        <div className="bg-[#ffecd6] w-[1100px] max-[640px]:w-[400px] h-auto flex gap-x-[100px] rounded-[30px] px-5 max-[640px]:flex-col">
           <div className="flex flex-col">
             <h1 className="soulmaze red text-[5rem] w-[400px] leading-[5rem] mt-2">
               GET TO KNOW ME!
@@ -35,8 +35,8 @@ const About = () => {
               </picture>
               {showBubble && (
                 <>
-                <div className="absolute top-0 right-[.5rem] bg-[#fffab7] p-2 rounded-md shadow-md">
-                  <span role="img" aria-label="Chat Bubble" className="text-[15px] berkeley">
+                <div className="absolute top-0 right-[.5rem] bg-[#fffab7] p-2 rounded-md shadow-md max-[640px]:right-[3rem]">
+                  <span role="img" aria-label="Chat Bubble" className="text-[15px] berkeley max-[640px]:text-[10px]">
                     hi, i&apos;m clark. klaw&apos;s favorite <br />octopus.
                   </span>
                 </div>
@@ -44,7 +44,7 @@ const About = () => {
               )}
             </div>
           </div>
-          <p className="berkeley blue w-[500px] mt-5 mb-5">
+          <p className="berkeley blue w-[500px] mt-5 mb-5 max-[640px]:w-[300px]">
             Hey there! I`m{" "}
             <span className="red font-bold select">Muhammad Dimas</span>
             , a Junior Programmer and Digital Artist who`s all about design,
