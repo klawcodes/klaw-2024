@@ -55,7 +55,7 @@ const Works = () => {
           >
             <div className="flex flex-wrap space-x-5 mb-10 max-[640px]:grid max-[640px]:grid-cols-2 max-[640px]:gap-x-5 max-[640px]:gap-y-5 max-[640px]:space-x-0 max-[640px]:text-[5px]">
               <button
-                className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px] 
+                className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#2d3250] hover:text-[#ff9490] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px] 
                     ${
                       selectedCategory === "ALL"
                         ? "bg-[#fffab7] text-[#fb615c]"
@@ -77,7 +77,7 @@ const Works = () => {
                 ALL
               </button>
               <button
-                className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
+                className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#2d3250] hover:text-[#ff9490] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "KLAW"
                         ? "bg-[#fffab7] text-[#fb615c]"
@@ -100,7 +100,7 @@ const Works = () => {
                 KLAW
               </button>
               <button
-                className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
+                className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#2d3250] hover:text-[#ff9490] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "RIOT REVENGER"
                         ? "bg-[#fffab7] text-[#fb615c]"
@@ -123,7 +123,7 @@ const Works = () => {
                 RIOT REVENGER
               </button>
               <button
-                className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
+                className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#2d3250] hover:text-[#ff9490] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "NEON PAPER KID"
                         ? "bg-[#fffab7] text-[#fb615c]"
@@ -146,13 +146,13 @@ const Works = () => {
                 NEON PAPER KID
               </button>
               <button
-                className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
+                className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#2d3250] hover:text-[#ff9490] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "MIDNIGHT KOALA"
                         ? "bg-[#fffab7] text-[#fb615c]"
                         : ""
                     } 
-                    ${selectedCategory === "MIDNIGHT KOALA" && "text-[#2d3250]"} 
+                    ${selectedCategory === "MIDNIGHT KOALA" && "text-[#fb615c]"} 
                     ${
                       windowWidth <= 640
                         ? "text-[10px] px-[3.5rem] py-[0.5rem]"
