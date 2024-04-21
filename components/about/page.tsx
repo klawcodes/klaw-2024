@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <>
-      <div className="flex justify-center items-center h-auto">
+      <div className="flex justify-center items-center h-auto" id="about">
         <div className="bg-[#ffecd6] w-[1100px] h-auto flex gap-x-[100px] rounded-[30px] px-5">
           <div className="flex flex-col">
             <h1 className="soulmaze red text-[5rem] w-[400px] leading-[5rem] mt-2">

@@ -51,6 +51,12 @@ body {
   color: #d6d4d0;
 }
 
+::selection {
+  background: #fb615c;
+  color: #fffab7;
+}
+
+
 .select {
   height: 0;
 }

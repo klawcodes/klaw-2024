@@ -4,6 +4,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import Image from "next/image";
+import { Link } from "react-scroll";
 
 const Team = () => {
   return (
@@ -171,9 +172,16 @@ const Team = () => {
           <p className="berkeley red mt-2 mb-2">
             Here let me show you the truth!
           </p>
+          <Link
+          to="about"
+          spy={true}
+          offset={-33}
+          smooth={true}
+          >
           <button className="bg-[#2d3250] border border-[#fffab7] hover:border-[#fb615c] rounded-full px-4 py-2 text-white w-[200px] berkeley cream mb-5">
             Show me more
           </button>
+          </Link>
         </div>
       </div>
     </>
