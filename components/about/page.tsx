@@ -53,7 +53,7 @@ const About = () => {
             then, I`ve been hooked! <br />
             <br />
             You`ll usually find me lost in the world of creativity, whether I`m
-            crafting 3D wonders, designing eye-catching graphics, or grooving to
+            crafting 3D wonders, designing eye-catching graphics, or vibing to
             my latest music creation. Programming isn`t just a hobby for me;
             it`s my passion.
             <br /> <br />

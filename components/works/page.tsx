@@ -58,7 +58,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px] 
                     ${
                       selectedCategory === "ALL"
-                        ? ""
+                        ? "bg-[#fffab7] text-[#fb615c]"
                         : ""
                     } 
                     ${
@@ -80,7 +80,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "KLAW"
-                        ? ""
+                        ? "bg-[#fffab7] text-[#fb615c]"
                         : ""
                     } 
                     ${selectedCategory === "KLAW" && "text-[#2d3250]"} 
@@ -103,7 +103,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "RIOT REVENGER"
-                        ? ""
+                        ? "bg-[#fffab7] text-[#fb615c]"
                         : ""
                     } 
                     ${selectedCategory === "RIOT REVENGER" && "text-[#2d3250]"} 
@@ -126,7 +126,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "NEON PAPER KID"
-                        ? ""
+                        ? "bg-[#fffab7] text-[#fb615c]"
                         : ""
                     } 
                     ${selectedCategory === "NEON PAPER KID" && "text-[#2d3250]"} 
@@ -149,7 +149,7 @@ const Works = () => {
                 className={`berkeley bg-[#fb615c] hover:bg-[#fffab7] text-[#fffab7] hover:text-[#fb615c] py-1 px-8 text-[13px] rounded-full transition duration-300 ease-in-out max-[390px]:text-[9px]
                     ${
                       selectedCategory === "MIDNIGHT KOALA"
-                        ? ""
+                        ? "bg-[#fffab7] text-[#fb615c]"
                         : ""
                     } 
                     ${selectedCategory === "MIDNIGHT KOALA" && "text-[#2d3250]"} 
