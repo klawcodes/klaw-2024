@@ -183,7 +183,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[20px] blue">
+                  <h2 className="soulmaze mr-2 text-[20px] max-[640px]:text-[25px] blue">
                     CAPRES FACTS
                   </h2>
                   <DiHtml5 title="HTML" className="icon mb-1 blue" />
@@ -211,7 +211,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[20px] blue">LARQ API</h2>
+                  <h2 className="soulmaze mr-2 text-[20px] max-[640px]:text-[25px] blue">LARQ API</h2>
                   <DiJsBadge title="Javascript" className="icon mb-1 blue" />
                 </div>
                 <p className="berkeley mb-3 text-[13px] w-[230px] h-[120px]">
@@ -233,7 +233,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[20px] blue">
+                  <h2 className="soulmaze mr-2 text-[20px] max-[640px]:text-[25px] blue">
                     HOLOLIVE ID
                   </h2>
                   <DiReact title="React JS" className="icon mb-1 blue" />
@@ -260,7 +260,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[20px] blue">
+                  <h2 className="soulmaze mr-2 text-[20px] max-[640px]:text-[25px] blue">
                     AWAS IMSAK!
                   </h2>
                   <SiNextdotjs title="Next JS" className="icon mb-1 blue" />
@@ -288,7 +288,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[18px] blue">
+                  <h2 className="soulmaze mr-2 text-[18px] max-[640px]:text-[23px] blue">
                     HAND SIGN DETECTOR
                   </h2>
                   <DiPython title="Python" className="icon mb-1 blue" />
@@ -314,7 +314,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[20px] blue">REVENGER</h2>
+                  <h2 className="soulmaze mr-2 text-[20px] max-[640px]:text-[25px] blue">REVENGER</h2>
                   <DiReact title="React JS" className="icon mb-1 blue" />
                   <DiHtml5 title="HTML" className="icon mb-1 blue" />
                   <DiCss3 title="CSS" className="icon mb-1 blue" />
@@ -340,7 +340,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[20px] blue">DEMONS.</h2>
+                  <h2 className="soulmaze mr-2 text-[20px] max-[640px]:text-[25px] blue">DEMONS.</h2>
                   <SiBlender title="Blender" className="icon mb-1 blue" />
                   <SiAdobeillustrator
                     title="Adobe Illustrator"
@@ -368,7 +368,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[20px] blue">
+                  <h2 className="soulmaze mr-2 text-[20px] max-[640px]:text-[25px] blue">
                     BURN IN HELL.
                   </h2>
                   <SiBlender title="Blender" className="icon mb-1 blue" />
@@ -398,7 +398,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[20px] blue">
+                  <h2 className="soulmaze mr-2 text-[20px] max-[640px]:text-[25px] blue">
                     JIMMY BROWN
                   </h2>
                   <SiAdobephotoshop
@@ -427,7 +427,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[20px] blue">OSA</h2>
+                  <h2 className="soulmaze mr-2 text-[20px] max-[640px]:text-[25px] blue">OSA</h2>
                   <SiAdobephotoshop
                     title="Adobe Photoshop"
                     className="icon mb-1 blue"
@@ -458,7 +458,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[20px] blue">PLEASE? EP</h2>
+                  <h2 className="soulmaze mr-2 text-[20px] max-[640px]:text-[25px] blue">PLEASE? EP</h2>
                 </div>
                 <p className="berkeley mb-3 text-[13px] w-[230px] h-[120px]">
                   -
@@ -481,7 +481,7 @@ const Works = () => {
                 }`}
               >
                 <div className="flex items-center mb-3">
-                  <h2 className="soulmaze mr-2 text-[20px] blue">
+                  <h2 className="soulmaze mr-2 text-[20px] max-[640px]:text-[25px] blue">
                     AGAIN & AGAIN
                   </h2>
                 </div>

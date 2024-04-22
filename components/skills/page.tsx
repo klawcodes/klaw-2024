@@ -33,8 +33,22 @@ const Skills = () => {
                 </div>
                 <div className="image-container w-[60px] h-auto">
                   <Image
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg"
+                    alt="Typescript"
+                    sizes="4.3vw"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                    }}
+                    width={60}
+                    height={60}
+                    className="transition duration-300 filter grayscale hover:filter-none iimage w-[60px] relative"
+                  />
+                </div>
+                <div className="image-container w-[60px] h-auto">
+                  <Image
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                    alt="Javascript"
+                    alt="React"
                     sizes="4.3vw"
                     style={{
                       width: "100%",
@@ -48,7 +62,7 @@ const Skills = () => {
                 <div className="image-container w-[60px] h-auto">
                   <Image
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
-                    alt="Javascript"
+                    alt="NextJS"
                     sizes="4.3vw"
                     style={{
                       width: "100%",
@@ -62,7 +76,7 @@ const Skills = () => {
                 <div className="image-container w-[60px] h-auto">
                   <Image
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-                    alt="Javascript"
+                    alt="Python"
                     sizes="4.3vw"
                     style={{
                       width: "100%",
@@ -76,7 +90,7 @@ const Skills = () => {
                 <div className="image-container w-[60px] h-auto">
                   <Image
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-                    alt="Javascript"
+                    alt="NodeJS"
                     sizes="4.3vw"
                     style={{
                       width: "100%",
@@ -90,7 +104,7 @@ const Skills = () => {
                 <div className="image-container w-[60px] h-auto">
                   <Image
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
-                    alt="Javascript"
+                    alt="VSCode"
                     sizes="4.3vw"
                     style={{
                       width: "100%",
@@ -104,7 +118,7 @@ const Skills = () => {
                 <div className="image-container w-[60px] h-auto">
                   <Image
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
-                    alt="Javascript"
+                    alt="git"
                     sizes="4.3vw"
                     style={{
                       width: "100%",
@@ -118,7 +132,21 @@ const Skills = () => {
                 <div className="image-container w-[60px] h-auto">
                   <Image
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"
-                    alt="Javascript"
+                    alt="npm"
+                    sizes="4.3vw"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                    }}
+                    width={60}
+                    height={60}
+                    className="transition duration-300 filter grayscale hover:filter-none iimage w-[60px] relative"
+                  />
+                </div>
+                <div className="image-container w-[60px] h-auto">
+                  <Image
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/debian/debian-original.svg"
+                    alt="Debian"
                     sizes="4.3vw"
                     style={{
                       width: "100%",
