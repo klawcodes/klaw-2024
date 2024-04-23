@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { DiReact, DiHtml5, DiCss3, DiJsBadge, DiPython } from "react-icons/di"
-import { SiBlender, SiNextdotjs, SiElectron, SiAdobeillustrator, SiAdobephotoshop, SiAdobeaftereffects } from "react-icons/si";
+import { SiBlender, SiNextdotjs, SiTypescript, SiElectron, SiAdobeillustrator, SiAdobephotoshop, SiAdobeaftereffects } from "react-icons/si";
 import { useState, useEffect } from 'react'
 
 const Works = () => {
@@ -237,8 +237,7 @@ const Works = () => {
                     HOLOLIVE ID
                   </h2>
                   <DiReact title="React JS" className="icon mb-1 blue" />
-                  <DiHtml5 title="HTML" className="icon mb-1 blue" />
-                  <DiCss3 title="CSS" className="icon mb-1 blue" />
+                  <DiJsBadge title="Javascript" className="icon mb-1 blue" />
                 </div>
                 <p className="berkeley mb-3 text-[13px] w-[230px] h-[120px]">
                   Unofficial Hololive ID Website.
@@ -264,8 +263,7 @@ const Works = () => {
                     AWAS IMSAK!
                   </h2>
                   <SiNextdotjs title="Next JS" className="icon mb-1 blue" />
-                  <DiHtml5 title="HTML" className="icon mb-1 blue" />
-                  <DiCss3 title="CSS" className="icon mb-1 blue" />
+                  <SiTypescript title="Typescript" className="icon mb-1 ml-1 blue" />
                 </div>
                 <p className="berkeley mb-3 text-[13px] w-[230px] h-[120px]">
                   Your loyal companion during Ramadhan. Discover the
