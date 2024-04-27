@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -172,15 +172,14 @@ const Team = () => {
           <p className="berkeley red mt-2 mb-2">
             Here let me show you the truth!
           </p>
-          <Link
-          to="about"
-          spy={true}
-          offset={-33}
-          smooth={true}
-          >
-          <button className="bg-[#2d3250] border border-[#fffab7] hover:border-[#fb615c] rounded-full px-4 py-2 text-white w-[200px] berkeley cream mb-5">
-            Show me more
-          </button>
+          <Link to="about" spy={true} offset={-33} smooth={true}>
+            <div className="w-40 mb-5 mt-1">
+              <div className=" relative h-8 w-full rounded-full cream berkeley bg-[#fb615c]">
+                <button className="w-53  absolute -left-1 -top-1 flex h-full w-full items-center justify-center gap-3 rounded-full border border-[#fb615c] bg-[#2d3250] p-2 text-xs transition-all duration-200 hover:-left-0 hover:-top-0 hover:bg-[#383e61]  lg:cursor-pointer">
+                  Show me more!
+                </button>
+              </div>
+            </div>
           </Link>
         </div>
       </div>
