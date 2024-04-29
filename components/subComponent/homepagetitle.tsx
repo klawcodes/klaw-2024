@@ -1,14 +1,15 @@
 "use client";
 
-import Image from "next/image";
-import Team from "../components/team/page";
-import About from "../components/about/page";
-import Skills from "../components/skills/page";
-import Works from "../components/works/page";
-import Contact from "../components/contact/page";
 import { useState, useEffect } from "react";
+import React, { ReactNode } from "react";
 
-export default function Home() {
+import LangButton from "../langButton/page";
+
+interface HomepageTitleProps {
+  children: ReactNode;
+}
+
+const HomepageTitle = ({ children }: HomepageTitleProps) => {
   const [dots, setDots] = useState(".");
 
   useEffect(() => {
@@ -66,28 +67,22 @@ export default function Home() {
     <>
       <div className="parallax h-screen">
         {showDiv && (
-          <div
-            className="cream berkeley grid grid-cols-3 mx-[5rem] max-[640px]:mx-[1rem] mb-2 text-[.9rem] max-[640px]:text-[.7rem] items-end justify-center h-screen"
-            style={{ scrollSnapAlign: "end" }}
-          >
-            <h1 className="text-left">🌏 based in bekasi</h1>
-            <h1 className="text-center">scroll down pls{dots}</h1>
-            <h1 className="text-right">working worldwide 🌎</h1>
+          <div className="flex items-end justify-center h-screen">
+            <div className="flex w-full justify-between items-center mb-2 text-[.9rem] max-[640px]:text-[.7rem] mx-5 berkeley">
+              <h1 className="">🌏 based in bekasi</h1>
+              <h1 className="">{children}{dots}</h1>
+              <LangButton />
+            </div>
           </div>
         )}
         {showScrollText && (
           <div className="cream berkeley mx-[5rem] max-[640px]:mx-[1rem] mb-2 text-[.9rem] max-[640px]:text-[.7rem] h-screen flex flex-col items-center justify-end">
-            <h1 className="text-center">scroll down pls{dots}</h1>
+            <h1 className="text-center">{children}</h1>
           </div>
         )}
       </div>
-      <div className="flex flex-col gap-[5vh] mb-[5vh]">
-        <Team />
-        <About />
-        <Skills />
-        <Works />
-        <Contact />
-      </div>
     </>
   );
-}
+};
+
+export default HomepageTitle;

@@ -1,0 +1,45 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "HomePage": {
+    "title": "desplácese hacia abajo"
+  },
+  "Team": {
+    "title": "CONOCE AL",
+    "title2": "EQUIPO",
+    "subtitle": "¡JA, ES BROMA. TODOS ELLOS SON YO!",
+    "paragraph": "¡Aquí déjame mostrarte la verdad!",
+    "button-text": "¡Muéstrame más!"
+  },
+  "About": {
+    "title": "¡CONÓ-CEME!",
+    "bubble": "hola, soy clark. El pulpo favorito ",
+    "bubble-break": "de klaw.",
+    "greetings": "¡Hola! Soy",
+    "name": "Muhammad Dimas",
+    "paragraph1": ", Un Programador Junior y Artista Digital apasionado por el diseño, la música y la codificación de cosas geniales. Empecé a programar en 2020 cuando decidí construir mi propio servidor público de Minecraft, ¡y desde entonces, estoy enganchado!",
+    "paragraph2": "Normalmente me encontrarás perdido en el mundo de la creatividad, ya sea creando maravillas en 3D, diseñando gráficos llamativos o disfrutando de mi última creación musical. La programación no es solo un pasatiempo para mí; es mi pasión.",
+    "paragraph3": "Entonces, ¿Klaw, RIOT REVENGER, NEON PAPER KID y Midnight Koala? Sí, básicamente son mis alter egos."
+  },
+  "Skills": {
+    "title": "¡MIS HABILI-DADES!",
+    "title2": "LENGUAJES DE PROGRAMACIÓN Y HERRAMIENTAS",
+    "title3": "HERRAMIENTAS DE DISEÑO",
+    "favorite": "Next.js",
+    "subtitle1": "He estado probando ",
+    "subtitle2": "para proyectos web recientemente."
+  },
+  "Works": {
+    "title": "¡TRABAJOS DESTACADOS!",
+    "cf-desc": "Capres Facts es un sitio web que muestra datos sobre los candidatos presidenciales indonesios (capres) que participarán en las elecciones de 2024.",
+    "l-desc": "una API basada en JSON que te permite buscar el paisaje de cada ciudad famosa en Asia, ¿quieres probarlo? [En Desarrollo]",
+    "hl-desc": "Sitio web no oficial de Hololive ID.",
+    "ai-desc": "Tu compañero leal durante Ramadán. Descubre los horarios de imsak y de oración.",
+    "hsd-desc": "¡Tu aplicación imprescindible impulsada por Python! Identifica e interpreta fácilmente los signos de mano. [En Desarrollo]",
+    "r-desc": "Sitio web de portafolio para el único y verdadero RIOT REVENGER."
+  },
+  "Contact": {
+    "title": "¡CONTACTO!"
+  }
+}

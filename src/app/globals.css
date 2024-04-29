@@ -19,12 +19,12 @@ body {
 
 @font-face {
   font-family: 'soulmaze';
-  src: url('../fonts/soulmaze.otf');
+  src: url('../../fonts/soulmaze.otf');
 }
 
 @font-face {
   font-family: 'berkeley';
-  src: url('../fonts/BerkeleyMonoTrial-Regular.otf');
+  src: url('../../fonts/BerkeleyMonoTrial-Regular.otf');
 }
 
 .soulmaze {
@@ -88,4 +88,17 @@ body {
 
 .forsvg {
   filter: invert(45%) sepia(52%) saturate(874%) hue-rotate(316deg) brightness(104%) contrast(97%);
+}
+
+.preventDragContextMenu {
+  -webkit-user-drag: none; /* Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  touch-action: none; /* For touch devices */
+}
+
+.preventDragContextMenu img {
+  pointer-events: none;
 }

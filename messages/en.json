@@ -1,0 +1,45 @@
+{
+    "Index": {
+      "title": "Hello world!"
+    },
+    "HomePage": {
+      "title": "scroll down pls"
+    },
+    "Team": {
+      "title": "MEET THE",
+      "title2": "TEAM",
+      "subtitle": "NAH, JUST KIDDING. ALL OF THEM IS ME!",
+      "paragraph": "Here let me show you the truth!",
+      "button-text": "Show me more!"
+    },
+    "About": {
+      "title": "GET TO KNOW ME!",
+      "bubble": "hi, i'm clark. klaw's favorite ",
+      "bubble-break": "octopus.",
+      "greetings": "Hey there! I`m",
+      "name": "Muhammad Dimas",
+      "paragraph1": ", a Junior Programmer and Digital Artist who`s all about design, music, and coding cool stuff. I got into programming back in 2020 when I decided to build my own public Minecraft Server, and since then, I`ve been hooked!",
+      "paragraph2": "You`ll usually find me lost in the world of creativity, whether I`m crafting 3D wonders, designing eye-catching graphics, or vibing to my latest music creation. Programming isn`t just a hobby for me; it`s my passion.",
+      "paragraph3": "So, Klaw, RIOT REVENGER, NEON PAPER KID, and Midnight Koala? Yup, those are basically my alter egos."
+    },
+    "Skills": {
+      "title": "MY SKILL SET!",
+      "title2": "PROGRAMMING LANGUAGES & TOOLS",
+      "title3": "DESIGN TOOLS",
+      "favorite": "Next.js",
+      "subtitle1": "Been playing around with ",
+      "subtitle2": "for web projects recently."
+    },
+    "Works": {
+      "title": "FEATURED WORKS!",
+      "cf-desc": "Capres Facts is a website that showcases facts about Indonesian presidential candidates (capres) who will be running in the 2024 elections.",
+      "l-desc": "a JSON based API that you get to search the landscape of every famous city in Asia, want to try it? [Under Development]",
+      "hl-desc": "Unofficial Hololive ID Website.",
+      "ai-desc": "Your loyal companion during Ramadhan. Discover the imsak and prayer schedules.",
+      "hsd-desc": "your go-to Python-powered app! Seamlessly identify and interpret hand signs with ease. [Under Development]",
+      "r-desc": "Portfolio website for the one and only RIOT REVENGER."
+    },
+    "Contact": {
+      "title": "HIT ME UP!"
+    }
+  }

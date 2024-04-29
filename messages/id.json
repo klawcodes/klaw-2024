@@ -1,0 +1,45 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "HomePage": {
+    "title": "geser ke bawah ya"
+  },
+  "Team": {
+    "title": "KENALIN NIH TIM",
+    "title2": "SAYA",
+    "subtitle": "HMM, BERCANDA. MEREKA SEMUA ADALAH SAYA!",
+    "paragraph": "Nah, ijinkan saya tunjukkan kebenarannya!",
+    "button-text": "Tunjukkan ke saya!"
+  },
+  "About": {
+    "title": "KENALI AKU!",
+    "bubble": "halo, aku clark. gurita favorit ",
+    "bubble-break": "klaw.",
+    "greetings": "Hai! Aku",
+    "name": "Muhammad Dimas",
+    "paragraph1": ", Seorang Programmer Junior dan Seniman Digital yang suka desain, musik, dan ngoding hal keren. Aku mulai tertarik dengan pemrograman pada tahun 2020 ketika aku memutuskan untuk membangun server Minecraft publik sendiri, dan sejak saat itu, aku ketagihan!",
+    "paragraph2": "Biasanya kamu akan menemukan aku tenggelam dalam dunia kreativitas, entah aku sedang menciptakan keajaiban 3D, merancang grafis yang menarik perhatian, atau menikmati karya musik terbaru. Ngoding bukan hanya sekadar hobi bagiku; itu adalah passionku.",
+    "paragraph3": "Jadi, Klaw, RIOT REVENGER, NEON PAPER KID, dan Midnight Koala? Yup, mereka pada dasarnya adalah alter ego-ku."
+  },
+  "Skills": {
+    "title": "KE-AHLIAN-KU!",
+    "title2": "BAHASA PEMROGRAMAN & ALAT",
+    "title3": "ALAT DESAIN",
+    "favorite": "Next.js",
+    "subtitle1": "Sedang mencoba-coba belajar dengan ",
+    "subtitle2": "untuk proyek web belakangan ini."
+  },
+  "Works": {
+    "title": "KARYA UNGGULAN!",
+    "cf-desc": "Capres Facts adalah sebuah situs web yang menampilkan fakta-fakta tentang calon presiden Indonesia (capres) yang akan bertarung dalam pemilihan presiden 2024.",
+    "l-desc": "sebuah API berbasis JSON yang memungkinkan kamu untuk mencari informasi tentang lanskap setiap kota terkenal di Asia, mau mencobanya? [Dalam Pengembangan]",
+    "hl-desc": "Situs Web Hololive ID yang tidak resmi.",
+    "ai-desc": "Sahabat setiamu selama bulan Ramadhan. Temukan jadwal imsak dan sholat.",
+    "hsd-desc": "aplikasi andalanmu yang didukung oleh Python! Mudahnya mengidentifikasi dan menginterpretasikan isyarat tangan. [Dalam Pengembangan]",
+    "r-desc": "Situs web portfolio untuk RIOT REVENGER."
+  },
+  "Contact": {
+    "title": "HUBUNGI AKU!"
+  }
+}

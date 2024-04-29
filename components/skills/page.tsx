@@ -1,7 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const Skills = () => {
+  const t = useTranslations("Skills")
+
   return (
     <>
       <div className="flex justify-center items-center h-auto">
@@ -14,7 +17,7 @@ const Skills = () => {
               data-aos-duration="1000"
             >
               <p className="soulmaze blue text-[20px] pb-5">
-                PROGRAMMING LANGUAGES & TOOLS
+                {t("title2")}
               </p>
               <div className="grid grid-cols-4 gap-x-[7rem] gap-y-[2rem] max-[640px]:grid-cols-3 max-[640px]:gap-x-[3rem]">
                 <div className="image-container w-[60px] h-auto">
@@ -164,7 +167,7 @@ const Skills = () => {
               data-aos-delay="1200"
               data-aos-duration="1000"
             >
-              <p className="soulmaze blue text-[20px] pb-5">DESIGN TOOLS</p>
+              <p className="soulmaze blue text-[20px] pb-5">{t("title3")}</p>
               <div className="grid grid-cols-4 gap-x-[7rem] gap-y-[2rem] max-[640px]:grid-cols-3 max-[640px]:gap-x-[3rem]">
                 <div className="image-container w-[60px] h-auto">
                   <Image
@@ -227,12 +230,11 @@ const Skills = () => {
           </div>
           <div className="w-[400px] pr-2 max-[640px]:w-[300px]">
             <h1 className="soulmaze red text-[5rem] leading-[5rem] mt-2 text-end max-[640px]:text-start">
-              MY SKILL SET!
+              {t("title")}
             </h1>
             <p className="berkeley blue text-end max-[640px]:text-start mt-5">
-              Been playing around with{" "}
-              <span className="red text-bold select">Next.js</span> for web projects
-              recently.
+              {t("subtitle1")}{" "}
+              <span className="red text-bold select">{t("favorite")}</span> {t("subtitle2")}
             </p>
           </div>
         </div>

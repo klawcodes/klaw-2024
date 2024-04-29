@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.2.2",
+    "framer-motion": "^11.1.7",
+    "next": "^14.3.0-canary.29",
+    "next-intl": "^3.12.0",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.1.0",
@@ -17,6 +19,8 @@
     "swiper": "^11.1.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

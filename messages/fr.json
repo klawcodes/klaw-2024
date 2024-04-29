@@ -1,0 +1,45 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "HomePage": {
+    "title": "faites défiler vers le bas"
+  },
+  "Team": {
+    "title": "RENCONTREZ LE",
+    "title2": "ÉQUIPE",
+    "subtitle": "HÉ, JE RIGOLE. TOUS CEUX-LÀ, C'EST MOI !",
+    "paragraph": "Laisse-moi te montrer la vérité !",
+    "button-text": "Montre-moi plus !"
+  },
+  "About": {
+    "title": "ME CONNAÎ-TRE!",
+    "bubble": "salut, je suis clark. Le poulpe préféré ",
+    "bubble-break": "de klaw.",
+    "greetings": "Salut! Je suis",
+    "name": "Muhammad Dimas",
+    "paragraph1": ", Un Programmeur Junior et Artiste Numérique passionné de design, musique et codage de trucs sympas. J'ai commencé à programmer en 2020 lorsque j'ai décidé de créer mon propre serveur Minecraft public, et depuis, je suis accro!",
+    "paragraph2": "Tu me trouveras généralement plongé dans le monde de la créativité, que je crée des merveilles en 3D, conçois des graphiques accrocheurs ou vibre avec ma dernière création musicale. La programmation n'est pas seulement un passe-temps pour moi; c'est ma passion.",
+    "paragraph3": "Alors, Klaw, RIOT REVENGER, NEON PAPER KID et Midnight Koala? Oui, ce sont essentiellement mes alter egos."
+  },
+  "Skills": {
+    "title": "MES COMPÉ-TENCES!",
+    "title2": "LANGAGES DE PROGRAMMATION & OUTILS",
+    "title3": "OUTILS DE CONCEPTION",
+    "favorite": "Next.js",
+    "subtitle1": "Joué avec ",
+    "subtitle2": "pour les projets web récemment."
+  },
+  "Works": {
+    "title": "TRAVAUX EN VEDETTE!",
+    "cf-desc": "Capres Facts est un site web qui présente des faits sur les candidats à la présidence indonésienne (capres) qui se présenteront aux élections de 2024.",
+    "l-desc": "une API basée sur JSON qui vous permet de rechercher le paysage de chaque ville célèbre en Asie, envie d'essayer ? [En Développement]",
+    "hl-desc": "Site Web non officiel de Hololive ID.",
+    "ai-desc": "Votre compagnon fidèle pendant le Ramadan. Découvrez les horaires de imsak et de prière.",
+    "hsd-desc": "votre application incontournable alimentée par Python ! Identifiez et interprétez sans effort les signes de la main. [En Développement]",
+    "r-desc": "Site web de portfolio pour le seul et unique RIOT REVENGER."
+  },
+  "Contact": {
+    "title": "CONTACT!"
+  }
+}
