@@ -1,5 +1,5 @@
-import { NextResponse } from 'next/server';
+import { redirect } from 'next/navigation';
 
-export const GET = (req: Request) => {
-	return NextResponse.redirect('https://localhost:3000/en');
+export default function RootPage() {
+  redirect('/en');
 }
