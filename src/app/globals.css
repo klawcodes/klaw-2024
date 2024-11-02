@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #5bbcff;
-  background-image: url("/img/KLAW BG 2024.png");
-
-  /* Set a specific height */
-  min-height: 1080px;
+  background-color: #f5f5f5;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

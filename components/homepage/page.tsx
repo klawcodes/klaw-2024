@@ -5,6 +5,7 @@ import Skills from "../skills/page";
 import Works from "../works/page";
 import Contact from "..//contact/page";
 import HomepageTitle from "../subComponent/homepagetitle"
+import UnderDevelopment from "../ud/page";
 import { useTranslations } from "next-intl";
 
 const HomePage = () => {
@@ -12,13 +13,8 @@ const HomePage = () => {
 
   return (
     <>
-      <HomepageTitle>{t('title')}</HomepageTitle>
-      <div className="flex flex-col gap-[5vh] mb-[5vh]">
-        <Team />
-        <About />
-        <Skills />
-        <Works />
-        <Contact />
+      <div className="">
+        <UnderDevelopment />
       </div>
     </>
   );
