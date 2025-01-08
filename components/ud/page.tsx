@@ -6,7 +6,7 @@ const UnderDevelopment = () => {
       <div className="text-center berkeley">
         <h1 className="text-3xl font-bold mb-2">under development</h1>
         <p className="text-xl mb-4">pls come back later.</p>
-        <p className="text-sm text-gray-600">© <a href="https://github.com/pr0kc" className='underline'>pr0kc</a> 2024</p>
+        <p className="text-sm text-gray-600">© <a href="https://github.com/klawcodes" className='underline'>klawcodes</a> 2025</p>
       </div>
     </div>
   );
